@@ -16,7 +16,7 @@ if [ -d /data/adb/modules/MagiskHidePropsConf ]; then
 fi
 
 # Check custom fingerprint
-if [ -f "/data/adb/pif.json" ]; then
-    mv -f "/data/adb/pif.json" "/data/adb/pif.json.old"
-    ui_print "- Backup old pif.json"
-fi
+#if [ -f "/data/adb/pif.json" ]; then
+#    mv -f "/data/adb/pif.json" "/data/adb/pif.json.old"
+#    ui_print "- Backup old pif.json"
+#fi
